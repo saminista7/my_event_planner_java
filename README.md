@@ -44,11 +44,11 @@ java Main
 
 (Exact commands may vary depending on project structure.)
 
-##Academic Context
+## Academic Context
 
 This project was developed as part of an undergraduate coursework requirement at
 Ahsanullah University of Science and Technology (AUST) to demonstrate practical understanding of Java and software development fundamentals.
 
-##Notes
+## Notes
 
 This repository is kept for academic reference and foundational demonstration purposes.
