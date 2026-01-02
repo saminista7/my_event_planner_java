@@ -1,51 +1,80 @@
-# My Event Planner (Java)
+# My Event Planner (Java Event Management System)
 
-My Event Planner is a Java-based event management application developed to automate manual event planning and record-keeping processes through a structured software system.
+My Event Planner is a Java-based event management application designed for professional event management agencies to manage client events, resources, and schedules through a centralized, user-friendly system.
 
-This project was developed as part of an undergraduate coursework requirement and focuses on applying object-oriented programming concepts and basic system design principles.
+The application focuses on real-world domain modeling, database-driven workflows, and interactive user interfaces, and was developed as part of an undergraduate software development project.
 
 ---
 
 ## Overview
-The application is designed to manage event-related information in a computerized environment, allowing users to store, retrieve, and update records efficiently. By replacing manual processes with a software-driven approach, the system aims to improve accuracy, reduce redundancy, and simplify event management workflows.
+The system enables event management agencies to store, manage, and manipulate client event information digitally instead of relying on manual record keeping. Agencies can register events, assign resources, manage schedules, and perform advanced searches and filtering using a structured database-backed application.
+
+The application emphasizes usability, data integrity, and modular object-oriented design.
 
 ---
 
-## Key Objectives
-- Automate traditional manual event planning processes
-- Provide structured storage and retrieval of event data
-- Reduce redundant data entry and record-keeping overhead
-- Improve efficiency and reliability of basic event management tasks
+## Core Functionality
+- Client event registration with date selection using **JCalendar**
+- Event scheduling with start date, duration, and metadata
+- Assignment of resources such as musicians, themes, and services
+- Interactive dashboards for managing all entities
+- Full CRUD (Create, Read, Update, Delete) operations for:
+  - Events
+  - Musicians
+  - Themes
+  - Associated services
+- Advanced filtering and search by:
+  - Event date
+  - Client name
+  - Event ID
+- Centralized dashboard aggregating all event-related components
 
 ---
 
-## Features
-- Event creation and basic management
-- Centralized record storage
-- Structured workflow for handling event-related information
-- Console-based or application-driven interaction (based on implementation)
+## System Design
+The application follows an object-oriented design where each real-world entity is modeled as a separate Java class. Examples include:
+- Event
+- Musician
+- Theme
+- Client
+- Agency dashboard components
+
+Each entity maintains its own attributes (e.g., name, cost, duration) and database operations, and all components are integrated into a final dashboard-driven workflow.
+
+---
+
+## Database & Querying
+- Relational database used for persistent storage
+- Complex SQL queries written manually to support:
+  - Multi-criteria filtering
+  - Record searching and sorting
+  - CRUD operations across multiple entities
+- Strong focus on data consistency and query efficiency
+
+---
+
+## User Interface
+- Desktop-based Java UI
+- Interactive forms for data input and editing
+- Date selection via JCalendar
+- Clean and structured dashboards for agency users
+- Designed with usability and clarity in mind
 
 ---
 
 ## Technologies Used
 - **Language:** Java
-- **Development Environment:** Java-compatible IDE
-- **Programming Paradigm:** Object-Oriented Programming (OOP)
-
----
-
-## Concepts Demonstrated
-- Java class design and encapsulation
-- Control flow and data handling
-- Modular code structure
-- Separation of responsibilities within the application
+- **UI:** Java Swing / AWT (with JCalendar integration)
+- **Database:** SQL-based relational database
+- **Architecture:** Object-Oriented Design
+- **IDE:** Java-compatible IDE
 
 ---
 
 ## Academic Context
-This project was developed as part of an undergraduate **Software Development / Object-Oriented Programming** course to demonstrate foundational Java programming and system design skills.
+This project was developed as part of an undergraduate **Software Development / Database Systems** course and demonstrates practical application of Java programming, database integration, and system design principles.
 
 ---
 
 ## Notes
-This repository is maintained for academic reference and demonstration purposes and reflects a foundational implementation rather than a production-ready system.
+This repository is maintained for academic reference and demonstration purposes. While not production-deployed, the system reflects a realistic event management workflow used by professional agencies.
