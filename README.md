@@ -1,6 +1,6 @@
 # My Event Planner (Java Event Management System)
 
-My Event Planner is a Java-based event management application designed for professional event management agencies to manage client events, resources, and schedules through a centralized, user-friendly system.
+My Event Planner is a Java-based Desktop event management application designed for professional event management agencies to manage client events, resources, and schedules through a centralized, user-friendly system.
 
 The application focuses on real-world domain modeling, database-driven workflows, and interactive user interfaces, and was developed as part of an undergraduate software development project.
 
@@ -14,6 +14,7 @@ The application emphasizes usability, data integrity, and modular object-oriente
 ---
 
 ## Core Functionality
+-jFrame for a friendly UI experience
 - Client event registration with date selection using **JCalendar**
 - Event scheduling with start date, duration, and metadata
 - Assignment of resources such as musicians, themes, and services
@@ -64,7 +65,7 @@ Each entity maintains its own attributes (e.g., name, cost, duration) and databa
 
 ## Technologies Used
 - **Language:** Java
-- **UI:** Java Swing / AWT (with JCalendar integration)
+- **UI:** Java Swing / AWT, jFrame (with JCalendar integration)
 - **Database:** SQL-based relational database
 - **Architecture:** Object-Oriented Design
 - **IDE:** Java-compatible IDE
