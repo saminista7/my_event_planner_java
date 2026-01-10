@@ -54,7 +54,7 @@ Each entity maintains its own attributes (e.g., name, cost, duration) and databa
 
 ---
 
-## User Interface
+## UI/ UX
 - Desktop-based Java UI
 - Interactive forms for data input and editing
 - Date selection via JCalendar
